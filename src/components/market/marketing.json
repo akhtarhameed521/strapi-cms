@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_market_marketings",
+  "info": {
+    "displayName": "Marketing"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true,
+      "unique": false
+    },
+    "compaignDate": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tenders",
+  "info": {
+    "singularName": "tender",
+    "pluralName": "tenders",
+    "displayName": "tender"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "market": {
+      "type": "component",
+      "component": "market.marketing",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_facilities_cards",
+  "info": {
+    "displayName": "Facility Card",
+    "icon": "grid",
+    "description": "Card for the facilities section"
+  },
+  "options": {},
+  "attributes": {
+    "cardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "cardTitle": {
+      "type": "string",
+      "required": true
+    },
+    "cardDescription": {
+      "type": "text"
+    }
+  }
+}

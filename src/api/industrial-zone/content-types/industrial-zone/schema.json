@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "industrial_zones",
+  "info": {
+    "singularName": "industrial-zone",
+    "pluralName": "industrial-zones",
+    "displayName": "Industrial Zone"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "string"
+    }
+  }
+}

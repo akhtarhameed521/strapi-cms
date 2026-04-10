@@ -6,6 +6,7 @@
     "target": "ES2019",
     "strict": false,
     "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
     "esModuleInterop": true,
@@ -16,14 +17,12 @@
     "rootDir": "."
   },
   "include": [
-    // Include root files
-    "./",
-    // Include all ts files
-    "./**/*.ts",
-    // Include all js files
-    "./**/*.js",
-    // Force the JSON files in the src folder to be included
-    "src/**/*.json"
+    "src/**/*",
+    "config/**/*",
+    "types/**/*",
+    ".strapi/**/*",
+    "*.ts",
+    "*.js"
   ],
 
   "exclude": [

@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "custom_pages",
+  "info": {
+    "singularName": "custom-page",
+    "pluralName": "custom-pages",
+    "displayName": "Custom Page",
+    "description": "Dynamic pages that can be assigned to different sections of the website"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true,
+      "unique": true
+    },
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "About Us",
+        "Port Operations",
+        "Tender",
+        "Projects",
+        "Media Centre",
+        "Industrial Zone"
+      ],
+      "required": true
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "featuredImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}
